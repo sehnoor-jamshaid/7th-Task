@@ -1,0 +1,39 @@
+body{
+background:url("1.jpg") no-repeat  ;
+background-size:cover;
+height:100px;}
+.menudropdown
+{margin-left:170px;
+}
+.menudropdown ul {
+padding:0px;
+display:inline-flex;
+list-style:none; 
+}
+.menudropdown ul li
+{float:left;
+background-color:black;color:white;
+width:200px;
+height:60px;
+line-height:3;
+opacity:0.6;
+text-align:center;
+}
+.menudropdown ul li ul{
+
+display:none;}
+
+.menudropdown ul li:hover > ul {
+display:block;
+
+}
+.menudropdown ul li ul li{
+position:relative;}
+.menudropdown ul li ul li ul{
+position:absolute;
+left:200px;
+top:0px;}
+.menudropdown ul li:hover
+{background-color:orange;
+opacity:0.9;
+}
